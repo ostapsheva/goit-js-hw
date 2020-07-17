@@ -97,3 +97,15 @@
 // }
 
 // ...... Задание #6
+
+// let input;
+// let total = 0;
+// while (input !== null) {
+// 	input = prompt("Введите число:");
+// 	if (!isNaN(input)) {
+// 		total = total + +input;
+// 	} else {
+// 		alert("Было введено не число, попробуйте еще раз");
+// 	}
+// }
+// alert(`Общая сумма чисел равна ${total}.`);
