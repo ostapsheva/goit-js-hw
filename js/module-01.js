@@ -54,5 +54,46 @@
 // 	credits = credits - totalPrice;
 // 	message = `Вы купили ${quantityOfDroids} дроидов, на счету осталось ${credits} кредитов.`;
 // }
-
 // alert(message);
+
+// ...... Задание #5
+
+// let countryName = prompt("Укажите название страны, в которую нужно сделать доставку:");
+// let cost;
+
+// switch (countryName.toLowerCase()) {
+// 	case "китай":
+// 		cost = 100;
+// 		countryName = "Китай";
+// 		alert(`Доставка в ${countryName} будет стоить ${cost} кредитов.`);
+// 		break;
+
+// 	case "чили":
+// 		cost = 250;
+// 		countryName = "Чили";
+// 		alert(`Доставка в ${countryName} будет стоить ${cost} кредитов.`);
+// 		break;
+
+// 	case "австралия":
+// 		cost = 170;
+// 		countryName = "Австралию";
+// 		alert(`Доставка в ${countryName} будет стоить ${cost} кредитов.`);
+// 		break;
+
+// 	case "индия":
+// 		cost = 80;
+// 		countryName = "Индию";
+// 		alert(`Доставка в ${countryName} будет стоить ${cost} кредитов.`);
+// 		break;
+
+// 	case "ямайка":
+// 		cost = 120;
+// 		countryName = "Ямайку";
+// 		alert(`Доставка на ${countryName} будет стоить ${cost} кредитов.`);
+// 		break;
+
+// 	default:
+// 		alert("В Вашей стране доставка не доступна");
+// }
+
+// ...... Задание #6
