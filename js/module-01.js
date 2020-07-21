@@ -61,39 +61,45 @@
 // let countryName = prompt("Укажите название страны, в которую нужно сделать доставку:");
 // let cost;
 
-// switch (countryName.toLowerCase()) {
-// 	case "китай":
-// 		cost = 100;
-// 		countryName = "Китай";
-// 		alert(`Доставка в ${countryName} будет стоить ${cost} кредитов.`);
-// 		break;
+// if (countryName === null) {
+// 	alert("Отменено пользователем.");
+// } else {
+// 	switch (countryName.toLowerCase()) {
+// 		case "китай":
+// 			cost = 100;
+// 			countryName = "Китай";
 
-// 	case "чили":
-// 		cost = 250;
-// 		countryName = "Чили";
-// 		alert(`Доставка в ${countryName} будет стоить ${cost} кредитов.`);
-// 		break;
+// 			break;
 
-// 	case "австралия":
-// 		cost = 170;
-// 		countryName = "Австралию";
-// 		alert(`Доставка в ${countryName} будет стоить ${cost} кредитов.`);
-// 		break;
+// 		case "чили":
+// 			cost = 250;
+// 			countryName = "Чили";
 
-// 	case "индия":
-// 		cost = 80;
-// 		countryName = "Индию";
-// 		alert(`Доставка в ${countryName} будет стоить ${cost} кредитов.`);
-// 		break;
+// 			break;
 
-// 	case "ямайка":
-// 		cost = 120;
-// 		countryName = "Ямайку";
-// 		alert(`Доставка на ${countryName} будет стоить ${cost} кредитов.`);
-// 		break;
+// 		case "австралия":
+// 			cost = 170;
+// 			countryName = "Австралию";
 
-// 	default:
-// 		alert("В Вашей стране доставка не доступна");
+// 			break;
+
+// 		case "индия":
+// 			cost = 80;
+// 			countryName = "Индию";
+
+// 			break;
+
+// 		case "ямайка":
+// 			cost = 120;
+// 			countryName = "Ямайку";
+
+// 			break;
+
+// 		default:
+// 			alert("В Вашей стране доставка не доступна");
+// 	}
+
+// 	cost ? alert(`Доставка в ${countryName} будет стоить ${cost} кредитов.`) : "";
 // }
 
 // ...... Задание #6
