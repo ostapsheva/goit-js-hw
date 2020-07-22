@@ -45,3 +45,59 @@
 // console.log(findLongestWord("May the force be with you")); // 'force'
 
 // ...... Задание #4
+
+// const formatString = function (string) {
+// 	const quantityOfSymbol = string.split("").length;
+// 	if (quantityOfSymbol <= 40) {
+// 		return string;
+// 	} else {
+// 		string = string.slice(0, 40);
+// 		return `${string}...`;
+// 	}
+// };
+
+// console.log(formatString("Curabitur ligula sapien, tincidunt non."));
+// // вернется оригинальная строка
+
+// console.log(formatString("Vestibulum facilisis, purus nec pulvinar iaculis."));
+// // вернется форматированная строка
+
+// console.log(formatString("Curabitur ligula sapien."));
+// // вернется оригинальная строка
+
+// console.log(formatString("Nunc sed turpis. Curabitur a felis in nunc fringilla tristique."));
+// // вернется форматированная строка
+
+// ...... Задание #5
+
+// const checkForSpam = function (message) {
+// 	message = message.toLowerCase();
+// 	return message.includes("spam") || message.includes("sale");
+// };
+
+// console.log(checkForSpam("Latest technology news")); // false
+
+// console.log(checkForSpam("JavaScript weekly newsletter")); // false
+
+// console.log(checkForSpam("Get best sale offers now!")); // true
+
+// console.log(checkForSpam("[SPAM] How to earn fast money?")); // true
+
+// ...... Задание #6
+
+// let input;
+// const numbers = [];
+// let total = 0;
+
+// while (input !== null) {
+// 	input = prompt("Введите число:");
+// 	if (!isNaN(+input)) {
+// 		numbers.push(+input);
+// 	} else {
+// 		alert("Было введено не число, попробуйте еще раз");
+// 	}
+// }
+// for (const number of numbers) {
+// 	total += number;
+// }
+// alert(`Общая сумма чисел равна ${total}.`);
