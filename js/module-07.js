@@ -1,13 +1,12 @@
 // ...... Задание #1
 
-// const categorie = document.querySelector("#categories");
-// const items = document.querySelectorAll("li.item");
+// const items = document.querySelectorAll("#categories .item");
 
 // console.log(`В списке ${items.length} категории`);
 
 // items.forEach(item => {
-// 	console.log(`Категория: ${item.querySelector("h2").textContent}`);
-// 	console.log(`Количество элементов: ${item.querySelectorAll("li").length}`);
+// 	console.log(`Категория: ${item.children[0].textContent}`);
+// 	console.log(`Количество элементов: ${item.children[1].children.length}`);
 // });
 
 // ...... Задание #2
@@ -46,8 +45,10 @@
 // const gallery = document.querySelector("#gallery");
 
 // const items = images.map(element => {
-// 	gallery.insertAdjacentHTML("beforeend", `<li class="gallery-img"><img src=${element.url} alt=${element.alt}></li>`);
+// 	return `<li class="gallery-img"><img src=${element.url} alt=${element.alt}></li>`;
 // });
+
+// gallery.insertAdjacentHTML("beforeend", items.join(" "));
 
 // ...... Задание #4
 
